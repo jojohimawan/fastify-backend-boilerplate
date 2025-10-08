@@ -1,6 +1,9 @@
-# Mooda: Backend
+# Fastify Backend Boilerplate
 
-This repository serves as a **lightweight, modular, and scalable** backend boilerplate for Mooda built with **Bun, Fastify,** and **TypeScript**. It is designed with a **Flutter-like architecture philosophy** — __fine-grained, vertically deep, and horizontally compact__.
+This repository serves as a **lightweight, modular, and scalable** backend boilerplate for my personal development needs. Built with **Bun, Fastify,** and **TypeScript**. It is designed with a **Flutter-like architecture philosophy** — __fine-grained, vertically deep, and horizontally compact__.
+
+The goal is to maintain a **lean yet robust** backend foundation with clear separation of concerns:
+controller → service → repository → core infrastructure.
 
 ### Current Features
 - **Plugin-driven** architecture.
@@ -94,10 +97,10 @@ bun run format
 
 <br>
 
-> _Authored by KP PTI Team._
+> _Authored by Jordan Himawan._<br>
+> _web.jojohimawan.cloud_<br>
 >
-> _Cyber Security Research Group, C304 - D4 Building._ <br>
-> _Politeknik Elektronika Negeri Surabaya._ <br>
-> _In Collaboration with Piramida Teknologi Informasi, PT._
+> ⚙️ This boilerplate isn’t meant to reinvent the wheel — it’s a personal Fastify + Bun + TypeScript setup I use for projects.  
+> I’m sharing it under the MIT License in case it helps others get started faster.
 >
 > Last change: October 8th, 2025.

@@ -1,8 +1,12 @@
 {
-  "name": "mooda-backend",
+  "name": "fastify-backend-boilerplate",
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "author": {
+    "name": "Jordan Himawan",
+    "url": "https://web.jojohimawan.cloud"
+  },
   "scripts": {
     "start": "bun run dist/app.js",
     "start:dev": "bun --hot run src/server.ts",
