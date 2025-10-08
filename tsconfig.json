@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["bun"],
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@app": ["src/app.ts"],
+      "@core/*": ["src/core/*"],
+      "@config": ["src/core/config"],
+      "@plugins": ["src/core/plugins"],
+      "@definition": ["src/core/types"],
+      "@utils": ["src/core/utils"],
+      "@module/*": ["src/modules/*"]
+    }
+  },
+  "include": ["src", "bun.env.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}

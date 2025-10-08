@@ -1,0 +1,48 @@
+# Build outputs
+/dist
+/node_modules
+/.vscode
+/.git
+
+# Config files (these should not be formatted)
+.prettierrc
+eslint.config.mjs
+tsconfig.json
+
+# Documentation
+*.md
+LICENSE
+
+# Lock files
+package-lock.json
+bun.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory
+coverage
+
+# IDE files
+.idea
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+package.json
