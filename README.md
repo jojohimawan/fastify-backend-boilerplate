@@ -49,7 +49,7 @@ src/
 **1. Clone the repository**
 ```bash
 git clone <the repository url>
-cd mooda-backend
+cd fastify-backend-boilerplate
 ```
 
 **2. Install dependencies**
