@@ -1,6 +1,6 @@
 # Fastify Backend Boilerplate
 
-This repository serves as a **lightweight, modular, and scalable** backend boilerplate for my personal development needs. Built with **Bun, Fastify,** and **TypeScript**. It is designed with a **Flutter-like architecture philosophy** — __fine-grained, vertically deep, and horizontally compact__.
+This repository serves as a **lightweight, modular, and scalable** backend boilerplate for my personal development needs. Built with **Bun, Fastify,** and **TypeScript**. It is designed with a **Flutter-like architecture philosophy** — _fine-grained, vertically deep, and horizontally compact_.
 
 The goal is to maintain a **lean yet robust** backend foundation with clear separation of concerns:
 controller → service → repository → core infrastructure.
@@ -58,7 +58,7 @@ bun install
 ```
 
 **3. Configure environment variables**
-Create a `.env` file in the project root:
+<br>Create a `.env` file in the project root:
 ```bash
 cp .env.example .env
 ```
@@ -100,7 +100,7 @@ bun run format
 > _Authored by Jordan Himawan._<br>
 > _web.jojohimawan.cloud_<br>
 >
-> ⚙️ This boilerplate isn’t meant to reinvent the wheel — it’s a personal Fastify + Bun + TypeScript setup I use for projects.  
+> This boilerplate isn’t meant to reinvent the wheel — it’s a personal Fastify + Bun + TypeScript setup I use for projects.  
 > I’m sharing it under the MIT License in case it helps others get started faster.
 >
 > Last change: October 8th, 2025.
